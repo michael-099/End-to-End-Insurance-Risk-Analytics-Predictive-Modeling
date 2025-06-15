@@ -1,1 +1,7 @@
-/data
+# DVC-tracked data
+/data/*
+!data/*.dvc
+
+# DVC cache
+.dvc/cache/
+dvc-storage/
